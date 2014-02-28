@@ -1,0 +1,8 @@
+C:\Users\renan.silva\Desktop\Projects\CrossPlatform\Contacts\ContactsConsoleApplication\bin\Debug\ContactsConsoleApplication.exe.config
+C:\Users\renan.silva\Desktop\Projects\CrossPlatform\Contacts\ContactsConsoleApplication\bin\Debug\ContactsConsoleApplication.exe
+C:\Users\renan.silva\Desktop\Projects\CrossPlatform\Contacts\ContactsConsoleApplication\bin\Debug\ContactsConsoleApplication.pdb
+C:\Users\renan.silva\Desktop\Projects\CrossPlatform\Contacts\ContactsConsoleApplication\obj\Debug\ContactsConsoleApplication.exe
+C:\Users\renan.silva\Desktop\Projects\CrossPlatform\Contacts\ContactsConsoleApplication\obj\Debug\ContactsConsoleApplication.pdb
+C:\Users\renan.silva\Desktop\Projects\CrossPlatform\Contacts\ContactsConsoleApplication\obj\Debug\ContactsConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Users\renan.silva\Desktop\Projects\CrossPlatform\Contacts\ContactsConsoleApplication\bin\Debug\Contacts.Core.dll
+C:\Users\renan.silva\Desktop\Projects\CrossPlatform\Contacts\ContactsConsoleApplication\bin\Debug\Contacts.Core.pdb
