@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Core", "Contacts.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsConsoleApplication", "ContactsConsoleApplication\ContactsConsoleApplication.csproj", "{5302BB5C-FFF3-4390-BC53-426DFF045876}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Android", "Contacts.Android\Contacts.Android.csproj", "{ED40517D-B029-441F-B14C-FDAEEEA40144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Android.Linked", "Contacts.Android.Linked\Contacts.Android.Linked.csproj", "{3E1AD2DD-F1E6-4FB1-8630-228EBF62C380}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,16 @@ Global
 		{5302BB5C-FFF3-4390-BC53-426DFF045876}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5302BB5C-FFF3-4390-BC53-426DFF045876}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5302BB5C-FFF3-4390-BC53-426DFF045876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED40517D-B029-441F-B14C-FDAEEEA40144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED40517D-B029-441F-B14C-FDAEEEA40144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED40517D-B029-441F-B14C-FDAEEEA40144}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ED40517D-B029-441F-B14C-FDAEEEA40144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED40517D-B029-441F-B14C-FDAEEEA40144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED40517D-B029-441F-B14C-FDAEEEA40144}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3E1AD2DD-F1E6-4FB1-8630-228EBF62C380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E1AD2DD-F1E6-4FB1-8630-228EBF62C380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E1AD2DD-F1E6-4FB1-8630-228EBF62C380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E1AD2DD-F1E6-4FB1-8630-228EBF62C380}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

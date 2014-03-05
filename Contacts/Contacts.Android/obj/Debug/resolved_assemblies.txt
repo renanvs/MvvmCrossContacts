@@ -1,0 +1,11 @@
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Contacts.Android.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\binaries\Mvx\Portable\Cirrious.CrossCore.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\binaries\Mvx\Droid\Cirrious.CrossCore.Droid.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\binaries\Mvx\Portable\Cirrious.MvvmCross.Binding.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\binaries\Mvx\Droid\Cirrious.MvvmCross.Binding.Droid.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\binaries\Mvx\Portable\Cirrious.MvvmCross.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\binaries\Mvx\Droid\Cirrious.MvvmCross.Droid.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\binaries\Mvx\Portable\Cirrious.MvvmCross.Plugins.Json.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Contacts.Android.Linked.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Newtonsoft.Json.dll

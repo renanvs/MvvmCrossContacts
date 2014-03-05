@@ -1,19 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using Contacts.Core;
+using Contacts.Core.Models;
+using Contacts.Core.Services;
 
 namespace ContactsConsoleApplication
 {
 	class Program
 	{
+
 		static void Main(string[] args)
 		{
 			//programNomeSobrenome();
 			//programTestArray();
-			programCreateObjectContact();
+			//programCreateObjectContact();
+			ContactsService ContactsServiceInstance = ContactsService.Instance;
+			Console.ReadKey();
+			ContactsServiceInstance.PrintListToConsole();
 			Console.ReadKey();
 		}
 
@@ -48,9 +55,9 @@ namespace ContactsConsoleApplication
 
 		private static void programCreateObjectContact()
 		{
-			var contato = new ContactsModel("renan");
+			var contato = new ContactsModel();
+			contato.FirstName = "Renan";
 			contato.LastName = "Silva";
-			contato.printFullName();
 		}
 	}
 }
