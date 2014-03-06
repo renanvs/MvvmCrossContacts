@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Cirrious.MvvmCross.ViewModels;
 using Contacts.Core.Models;
 using Contacts.Core.Services;
@@ -10,7 +9,10 @@ namespace Contacts.Core.ViewModels
 	{
 
 		private readonly IContactsService _contactsService;
-		
+		/// <summary>
+		/// Ao criar o ViewModel (apenas uma vez), é criado alguns contatos de teste e enviado para a lista
+		/// </summary>
+		/// <param name="contactsService"></param>
 		public ContactsListViewModel(IContactsService contactsService)
 		{
 			_contactsService = contactsService;
@@ -22,13 +24,16 @@ namespace Contacts.Core.ViewModels
 			contactsService.AddContact(c3);
 		}
 
-		private string teste;
-
-		public string Teste {
-			get { return "teste123"; }
-			set { teste = value; }
+		/// <summary>
+		/// Label do botão que adiciona os contatos (via Binding)
+		/// </summary>
+		public string AddButtonLabel {
+			get { return "Add Contatos"; }
 		}
 
+		/// <summary>
+		/// Lista de todos os contatos (via Binding)
+		/// </summary>
 		public List<ContactsModel> ListContatos
 		{
 			get
@@ -38,6 +43,11 @@ namespace Contacts.Core.ViewModels
 			}
 		}
 
+		/// <summary>
+		/// Recebe o Model de contato da camada UI e envia para o service que se encarrega de armazenar, 
+		/// logo após é enviado uma notificação que a Lista de contatos foi atualizada
+		/// </summary>
+		/// <param name="model"></param>
 		public void AddContato(ContactsModel model)
 		{
 			_contactsService.AddContact(model);

@@ -7,6 +7,10 @@ namespace Contacts.Core.Services
 	{
 		private static List<ContactsModel> contactList;
 
+		/// <summary>
+		/// Adiciona um novo contato para a lista, passando um model de contato
+		/// </summary>
+		/// <param name="ContactModel">Model do contato</param>
 		public void AddContact(ContactsModel ContactModel)
 		{
 			if (contactList == null) {
@@ -16,6 +20,10 @@ namespace Contacts.Core.Services
 			contactList.Add(ContactModel);
 		}
 
+		/// <summary>
+		/// Retorna a lista de todos os contatos existentes no List
+		/// </summary>
+		/// <returns>List com todos os contatos</returns>
 		public List<ContactsModel> GetAllContacts()
 		{
 			return contactList;

@@ -1,18 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Xml;
 using Android.App;
-using Android.Graphics;
 using Android.OS;
-using Android.Views;
 using Android.Widget;
-using Cirrious.CrossCore;
-using Cirrious.MvvmCross.Binding.BindingContext;
 using Cirrious.MvvmCross.Binding.Droid.Views;
-using Cirrious.MvvmCross.Binding.ExtensionMethods;
 using Cirrious.MvvmCross.Droid.Views;
 using Contacts.Core.Models;
-using Contacts.Core.Services;
 using Contacts.Core.ViewModels;
 
 namespace Contacts.Android.Views
@@ -26,11 +17,14 @@ namespace Contacts.Android.Views
 
 			SetContentView(Resource.Layout.View_ListContacts);
 
-			AddButtonListening();
+			AddButtonEvent();
 
 		}
 
-		private void AddButtonListening()
+		/// <summary>
+		/// Cria um Evento para o botão de adicionar contatos
+		/// </summary>
+		private void AddButtonEvent()
 		{
 			Button bt = (Button) FindViewById(Resource.Id.idButtonAdd);
 			bt.Click += (o, e) => {
@@ -39,12 +33,17 @@ namespace Contacts.Android.Views
 			};
 		}
 
+		/// <summary>
+		/// Retorna a istancia do ViewModel
+		/// </summary>
 		private ContactsListViewModel Model
 		{
 			get { return (ContactsListViewModel) ViewModel; }
 		}
 
-
+		/// <summary>
+		/// Cria contatos falsos para simular a adição de contatos
+		/// </summary>
 		static private string fakeName = "fakeName";
 		static private string fakeLastName = "fakeLastname";
 		private int auxNum = 0;
