@@ -1,4 +1,3 @@
-Contacts.Android.Views.ContatosFormView;contacts.android.views.ContatosFormView
 Contacts.Android.Views.ContactsListView;contacts.android.views.ContactsListView
 Cirrious.CrossCore.Droid.MvxJavaContainer;cirrious.crosscore.droid.MvxJavaContainer
 Cirrious.CrossCore.Droid.MvxJavaContainer`1;cirrious.crosscore.droid.MvxJavaContainer_1

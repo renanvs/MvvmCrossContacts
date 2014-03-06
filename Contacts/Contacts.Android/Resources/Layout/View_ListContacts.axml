@@ -7,11 +7,6 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/idButtonGoToForm"
-        android:text="Entrar no Form" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/idButtonAdd"
         local:MvxBind="Text AddButtonLabel" />
     <TextView

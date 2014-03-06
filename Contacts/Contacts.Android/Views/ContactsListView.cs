@@ -17,30 +17,20 @@ namespace Contacts.Android.Views
 
 			SetContentView(Resource.Layout.View_ListContacts);
 
-			AddButtonsEvent();
+			AddButtonEvent();
+
 		}
 
 		/// <summary>
 		/// Cria um Evento para o botão de adicionar contatos
 		/// </summary>
-		private void AddButtonsEvent()
+		private void AddButtonEvent()
 		{
-			Button ButtonAddFakeContact = (Button) FindViewById(Resource.Id.idButtonAdd);
-			ButtonAddFakeContact.Click += (o, e) => {
+			Button bt = (Button) FindViewById(Resource.Id.idButtonAdd);
+			bt.Click += (o, e) => {
 				Toast.MakeText(this, "clicked", ToastLength.Short).Show();
 				addContatoFake();
 			};
-
-			Button ButtonGoToForm = FindViewById<Button>(Resource.Id.idButtonGoToForm);
-			ButtonGoToForm.Click += (o, e) => { GoToFormActivity(); };
-		}
-
-		/// <summary>
-		/// Vai para o Formulario de adicionar contato
-		/// </summary>
-		private void GoToFormActivity()
-		{
-			StartActivity(typeof(ContatosFormView));
 		}
 
 		/// <summary>

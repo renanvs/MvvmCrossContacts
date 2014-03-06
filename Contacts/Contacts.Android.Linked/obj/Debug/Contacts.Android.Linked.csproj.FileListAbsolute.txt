@@ -40,3 +40,5 @@ C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Androi
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\obj\Debug\res\values\strings.xml
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\obj\Debug\R.cs.flag
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\obj\Debug\uploadflags.txt
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Contacts.Android.Linked.dll.CodeAnalysisLog.xml
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Contacts.Android.Linked.dll.lastcodeanalysissucceeded
