@@ -5,8 +5,6 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Core", "Contacts.Core\Contacts.Core.csproj", "{444C2059-B3B3-4574-81C1-FA9C8D732D47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsConsoleApplication", "ContactsConsoleApplication\ContactsConsoleApplication.csproj", "{5302BB5C-FFF3-4390-BC53-426DFF045876}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Android", "Contacts.Android\Contacts.Android.csproj", "{ED40517D-B029-441F-B14C-FDAEEEA40144}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts.Android.Linked", "Contacts.Android.Linked\Contacts.Android.Linked.csproj", "{3E1AD2DD-F1E6-4FB1-8630-228EBF62C380}"
@@ -21,10 +19,6 @@ Global
 		{444C2059-B3B3-4574-81C1-FA9C8D732D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{444C2059-B3B3-4574-81C1-FA9C8D732D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{444C2059-B3B3-4574-81C1-FA9C8D732D47}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5302BB5C-FFF3-4390-BC53-426DFF045876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5302BB5C-FFF3-4390-BC53-426DFF045876}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5302BB5C-FFF3-4390-BC53-426DFF045876}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5302BB5C-FFF3-4390-BC53-426DFF045876}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ED40517D-B029-441F-B14C-FDAEEEA40144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED40517D-B029-441F-B14C-FDAEEEA40144}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED40517D-B029-441F-B14C-FDAEEEA40144}.Debug|Any CPU.Deploy.0 = Debug|Any CPU

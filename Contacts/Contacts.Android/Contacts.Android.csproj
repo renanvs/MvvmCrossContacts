@@ -80,7 +80,7 @@
     <AndroidResource Include="Resources\Layout\View_ListContacts.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\Layout\View_CellContato.axml">
+    <AndroidResource Include="Resources\Layout\View_CellContact.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>

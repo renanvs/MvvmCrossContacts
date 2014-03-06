@@ -84,13 +84,16 @@ namespace Contacts.Android
 			public const int MvxBindingTagUnique = 2131034112;
 			
 			// aapt resource value: 0x7f050004
-			public const int idContactList = 2131034116;
+			public const int idButtonAdd = 2131034116;
 			
 			// aapt resource value: 0x7f050003
 			public const int idFullName = 2131034115;
 			
 			// aapt resource value: 0x7f050002
 			public const int idLastName = 2131034114;
+			
+			// aapt resource value: 0x7f050005
+			public const int idListView = 2131034117;
 			
 			// aapt resource value: 0x7f050001
 			public const int idName = 2131034113;
@@ -109,7 +112,7 @@ namespace Contacts.Android
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int View_CellContato = 2130903040;
+			public const int View_CellContact = 2130903040;
 			
 			// aapt resource value: 0x7f030001
 			public const int View_ListContacts = 2130903041;

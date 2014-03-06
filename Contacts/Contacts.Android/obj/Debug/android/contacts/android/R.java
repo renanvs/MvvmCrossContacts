@@ -63,13 +63,14 @@ containing a value of this type.
     }
     public static final class id {
         public static final int MvxBindingTagUnique=0x7f050000;
-        public static final int idContactList=0x7f050004;
+        public static final int idButtonAdd=0x7f050004;
         public static final int idFullName=0x7f050003;
         public static final int idLastName=0x7f050002;
+        public static final int idListView=0x7f050005;
         public static final int idName=0x7f050001;
     }
     public static final class layout {
-        public static final int view_cellcontato=0x7f030000;
+        public static final int view_cellcontact=0x7f030000;
         public static final int view_listcontacts=0x7f030001;
     }
     public static final class string {

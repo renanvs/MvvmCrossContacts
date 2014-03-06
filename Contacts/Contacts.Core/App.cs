@@ -1,10 +1,6 @@
 ﻿using Cirrious.CrossCore;
 using Cirrious.MvvmCross.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Contacts.Core.Services;
 using Contacts.Core.ViewModels;
 
 namespace Contacts.Core
@@ -13,6 +9,7 @@ namespace Contacts.Core
 	{
 		public App()
 		{
+			Mvx.RegisterType<IContactsService, ContactsService>();
 			Mvx.RegisterSingleton<IMvxAppStart>(new MvxAppStart<ContactsListViewModel>());
 		}
 	}

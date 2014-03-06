@@ -7,11 +7,6 @@ namespace Contacts.Core.Models
 		private string firstName;
 		private string lastName;
 
-		public ContactsModel()
-		{
-			
-		}
-
 		public ContactsModel(String _firstName, String _lastName)
 		{
 			firstName = _firstName;

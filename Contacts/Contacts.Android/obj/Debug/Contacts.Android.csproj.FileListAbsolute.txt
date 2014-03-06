@@ -39,7 +39,7 @@ C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Androi
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\Contacts.Android.pdb
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\android\bin\Contacts.Android.apk
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\res\layout\view_listcontacts.xml
-C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\res\layout\view_cellcontato.xml
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\res\layout\view_cellcontact.xml
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\res\values\strings.xml
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\res\drawable\icon.png
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\res\values\mvxbindingattributes.xml

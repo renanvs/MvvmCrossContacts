@@ -75,6 +75,9 @@
     <Compile Include="..\Contacts.Core\Services\ContactsService.cs">
       <Link>Services\ContactsService.cs</Link>
     </Compile>
+    <Compile Include="..\Contacts.Core\Services\IContactsService.cs">
+      <Link>Services\IContactsService.cs</Link>
+    </Compile>
     <Compile Include="..\Contacts.Core\ViewModels\ContactsListViewModel.cs">
       <Link>ViewModels\ContactsListViewModel.cs</Link>
     </Compile>
@@ -91,7 +94,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties ProjectLinkReference="444c2059-b3b3-4574-81c1-fa9c8d732d47" ProjectLinkerExcludeFilter="\\?desktop(\\.*)?$;\\?silverlight(\\.*)?$;\.desktop;\.silverlight;\.xaml;^service references(\\.*)?$;\.clientconfig;^web references(\\.*)?$" />
+      <UserProperties ProjectLinkerExcludeFilter="\\?desktop(\\.*)?$;\\?silverlight(\\.*)?$;\.desktop;\.silverlight;\.xaml;^service references(\\.*)?$;\.clientconfig;^web references(\\.*)?$" ProjectLinkReference="444c2059-b3b3-4574-81c1-fa9c8d732d47" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
