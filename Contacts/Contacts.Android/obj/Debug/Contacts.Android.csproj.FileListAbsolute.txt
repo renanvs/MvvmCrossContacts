@@ -45,3 +45,4 @@ C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Androi
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\res\values\mvxbindingattributes.xml
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\R.cs.flag
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\uploadflags.txt
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\res\layout\view_contactform.xml

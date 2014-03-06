@@ -72,6 +72,7 @@
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Setup.cs" />
+    <Compile Include="Views\ContatosFormView.cs" />
     <Compile Include="Views\ContactsListView.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +82,9 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\Layout\View_CellContact.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\View_ContactForm.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>

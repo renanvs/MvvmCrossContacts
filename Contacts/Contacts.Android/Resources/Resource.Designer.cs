@@ -83,8 +83,29 @@ namespace Contacts.Android
 			// aapt resource value: 0x7f050000
 			public const int MvxBindingTagUnique = 2131034112;
 			
+			// aapt resource value: 0x7f050009
+			public const int buttonAddContact = 2131034121;
+			
+			// aapt resource value: 0x7f050008
+			public const int buttonCancel = 2131034120;
+			
+			// aapt resource value: 0x7f050005
+			public const int editTextLastName = 2131034117;
+			
+			// aapt resource value: 0x7f050007
+			public const int editTextMail = 2131034119;
+			
 			// aapt resource value: 0x7f050004
-			public const int idButtonAdd = 2131034116;
+			public const int editTextName = 2131034116;
+			
+			// aapt resource value: 0x7f050006
+			public const int editTextTelephone = 2131034118;
+			
+			// aapt resource value: 0x7f05000b
+			public const int idButtonAdd = 2131034123;
+			
+			// aapt resource value: 0x7f05000a
+			public const int idButtonGoToForm = 2131034122;
 			
 			// aapt resource value: 0x7f050003
 			public const int idFullName = 2131034115;
@@ -92,8 +113,8 @@ namespace Contacts.Android
 			// aapt resource value: 0x7f050002
 			public const int idLastName = 2131034114;
 			
-			// aapt resource value: 0x7f050005
-			public const int idListView = 2131034117;
+			// aapt resource value: 0x7f05000c
+			public const int idListView = 2131034124;
 			
 			// aapt resource value: 0x7f050001
 			public const int idName = 2131034113;
@@ -115,7 +136,10 @@ namespace Contacts.Android
 			public const int View_CellContact = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int View_ListContacts = 2130903041;
+			public const int View_ContactForm = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int View_ListContacts = 2130903042;
 			
 			static Layout()
 			{
