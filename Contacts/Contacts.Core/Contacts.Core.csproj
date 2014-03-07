@@ -52,6 +52,7 @@
     <Compile Include="Services\ContactsService.cs" />
     <Compile Include="Services\IContactsService.cs" />
     <Compile Include="ViewModels\ContactsListViewModel.cs" />
+    <Compile Include="ViewModels\ContatosFormViewModel.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

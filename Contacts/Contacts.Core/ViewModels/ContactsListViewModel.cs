@@ -16,12 +16,7 @@ namespace Contacts.Core.ViewModels
 		public ContactsListViewModel(IContactsService contactsService)
 		{
 			_contactsService = contactsService;
-			var c1 = new ContactsModel("renan", "silva");
-			var c2 = new ContactsModel("joao", "sub1");
-			var c3 = new ContactsModel("maria", "sub2");
-			contactsService.AddContact(c1);
-			contactsService.AddContact(c2);
-			contactsService.AddContact(c3);
+			
 		}
 
 		/// <summary>

@@ -40,12 +40,12 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
         <Button
-            android:id="@+id/buttonCancel"
+            android:id="@+id/idButtonCancel"
             android:text="Cancelar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <Button
-            android:id="@+id/buttonAddContact"
+            android:id="@+id/idButtonAddContact"
             android:text="Adicionar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

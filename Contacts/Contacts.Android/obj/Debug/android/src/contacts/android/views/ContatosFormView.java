@@ -2,7 +2,7 @@ package contacts.android.views;
 
 
 public class ContatosFormView
-	extends android.app.Activity
+	extends cirrious.mvvmcross.droid.views.MvxActivity
 	implements
 		mono.android.IGCUserPeer
 {

@@ -62,7 +62,7 @@ namespace Contacts.Android.Views
 			var newFakeName = fakeName + auxNum.ToString();
 			var newFakeLastName = fakeLastName + auxNum.ToString();
 			auxNum++;
-			var newModel = new ContactsModel(newFakeName, newFakeLastName);
+			var newModel = new ContactsModel(newFakeName, newFakeLastName, "5555 - 1111", "email@email.com.br");
 			Model.AddContato(newModel);
 			MvxListView listView = FindViewById<MvxListView>(Resource.Id.idListView);
 			listView.InvalidateViews();

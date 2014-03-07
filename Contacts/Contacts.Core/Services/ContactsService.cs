@@ -27,6 +27,21 @@ namespace Contacts.Core.Services
 		public List<ContactsModel> GetAllContacts()
 		{
 			return contactList;
-		} 
+		}
+
+		private static bool isFirstTime = true;
+		public ContactsService()
+		{
+			if (!isFirstTime) {
+				return;
+			}
+			var c1 = new ContactsModel("renan", "silva");
+			var c2 = new ContactsModel("joao", "sub1");
+			var c3 = new ContactsModel("maria", "sub2");
+			AddContact(c1);
+			AddContact(c2);
+			AddContact(c3);
+			isFirstTime = false;
+		}
 	}
 }
