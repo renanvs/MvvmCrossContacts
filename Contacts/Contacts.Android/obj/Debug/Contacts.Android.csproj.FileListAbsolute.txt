@@ -1,3 +1,4 @@
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\Contacts.Android.csprojResolveAssemblyReference.cache
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Contacts.Android.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Contacts.Android.pdb
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Contacts.Android.dll.mdb
@@ -10,6 +11,7 @@ C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Androi
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Cirrious.MvvmCross.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Cirrious.MvvmCross.Droid.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Cirrious.MvvmCross.Plugins.Json.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Cirrious.MvvmCross.Plugins.Messenger.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Contacts.Android.Linked.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Cirrious.MvvmCross.Localization.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Newtonsoft.Json.dll
@@ -29,20 +31,21 @@ C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Androi
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Cirrious.MvvmCross.Droid.dll.mdb
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Cirrious.MvvmCross.Plugins.Json.pdb
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Cirrious.MvvmCross.Plugins.Json.dll.mdb
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Cirrious.MvvmCross.Plugins.Messenger.pdb
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Cirrious.MvvmCross.Plugins.Messenger.dll.mdb
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Cirrious.MvvmCross.Localization.pdb
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Cirrious.MvvmCross.Localization.dll.mdb
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Newtonsoft.Json.xml
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\bin\Debug\Newtonsoft.Json.dll.mdb
-C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\Contacts.Android.csprojResolveAssemblyReference.cache
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\Contacts.Android.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\Contacts.Android.pdb
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\android\bin\Contacts.Android.apk
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\res\layout\view_listcontacts.xml
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\res\layout\view_cellcontact.xml
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\res\layout\view_contactform.xml
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\res\values\strings.xml
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\res\drawable\icon.png
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\res\values\mvxbindingattributes.xml
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\R.cs.flag
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\uploadflags.txt
-C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android\obj\Debug\res\layout\view_contactform.xml

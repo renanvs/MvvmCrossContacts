@@ -1,5 +1,10 @@
 ﻿using System.Collections.Generic;
+using System.Windows.Input;
+using Cirrious.CrossCore;
+using Cirrious.MvvmCross.Plugins.Messenger;
 using Cirrious.MvvmCross.ViewModels;
+using Contacts.Android.Linked.ViewModels;
+using Contacts.Core.MessengerClass;
 using Contacts.Core.Models;
 using Contacts.Core.Services;
 
@@ -47,6 +52,20 @@ namespace Contacts.Core.ViewModels
 		{
 			_contactsService.AddContact(model);
 			RaisePropertyChanged(()=>ListContatos);
+		}
+
+		public ICommand ShowContactDetailCommand
+		{
+			get
+			{
+				return new MvxCommand<ContactsModel>(contactModel => ShowDetailContactView(contactModel));
+			}
+		}
+
+		public void ShowDetailContactView(ContactsModel model)
+		{
+			var messenger = Mvx.Resolve<IMvxMessenger>();
+			messenger.Publish(new InputIsNeededMessage(model));
 		}
 
 	}

@@ -22,6 +22,6 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/idListView"
-        local:MvxBind="ItemsSource ListContatos"
+        local:MvxBind="ItemsSource ListContatos; ItemClick ShowContactDetailCommand"
         local:MvxItemTemplate="@layout/view_cellcontact" />
 </LinearLayout>

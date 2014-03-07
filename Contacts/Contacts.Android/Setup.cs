@@ -1,4 +1,5 @@
 using Android.Content;
+using Android.OS;
 using Cirrious.MvvmCross.Droid.Platform;
 using Cirrious.MvvmCross.ViewModels;
 using Contacts.Core;
@@ -20,6 +21,7 @@ namespace Contacts.Android
 		protected override IMvxNavigationSerializer CreateNavigationSerializer()
 		{
 			Cirrious.MvvmCross.Plugins.Json.PluginLoader.Instance.EnsureLoaded();
+			Cirrious.MvvmCross.Plugins.Messenger.PluginLoader.Instance.EnsureLoaded();
 			return new MvxJsonNavigationSerializer();
 		}
 

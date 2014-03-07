@@ -74,6 +74,7 @@ class MonoPackageManager_Resources {
 		"Cirrious.MvvmCross.dll",
 		"Cirrious.MvvmCross.Droid.dll",
 		"Cirrious.MvvmCross.Plugins.Json.dll",
+		"Cirrious.MvvmCross.Plugins.Messenger.dll",
 		"Contacts.Android.Linked.dll",
 		"Cirrious.MvvmCross.Localization.dll",
 		"Newtonsoft.Json.dll",

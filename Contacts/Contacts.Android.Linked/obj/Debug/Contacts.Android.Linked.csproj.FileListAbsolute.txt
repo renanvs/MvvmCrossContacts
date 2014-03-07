@@ -10,6 +10,7 @@ C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Androi
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Cirrious.MvvmCross.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Cirrious.MvvmCross.Droid.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Cirrious.MvvmCross.Plugins.Json.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Cirrious.MvvmCross.Plugins.Messenger.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\System.Windows.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Cirrious.MvvmCross.Localization.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Newtonsoft.Json.dll
@@ -27,6 +28,8 @@ C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Androi
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Cirrious.MvvmCross.Droid.dll.mdb
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Cirrious.MvvmCross.Plugins.Json.pdb
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Cirrious.MvvmCross.Plugins.Json.dll.mdb
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Cirrious.MvvmCross.Plugins.Messenger.pdb
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Cirrious.MvvmCross.Plugins.Messenger.dll.mdb
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\System.Windows.pdb
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\System.Windows.dll.mdb
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Cirrious.MvvmCross.Localization.pdb

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Contacts.Core.Models;
 
 namespace Contacts.Core.Services
@@ -17,7 +18,21 @@ namespace Contacts.Core.Services
 				contactList = new List<ContactsModel>();
 			}
 
+			ContactModel.IdContact = GetNewId();
+
 			contactList.Add(ContactModel);
+		}
+
+		private string GetNewId()
+		{
+			int highestId = 0;
+			foreach (var contactsModel in contactList) {
+				int currentIdInt = Convert.ToInt32(contactsModel.IdContact);
+				if (currentIdInt > highestId) {
+					highestId = currentIdInt;
+				}
+			}
+			return (highestId + 1).ToString();
 		}
 
 		/// <summary>
@@ -27,6 +42,16 @@ namespace Contacts.Core.Services
 		public List<ContactsModel> GetAllContacts()
 		{
 			return contactList;
+		}
+
+		public ContactsModel GetContactModelWithId(string objectId)
+		{
+			foreach (var model in contactList) {
+				if (objectId == model.IdContact) {
+					return model;
+				}
+			}
+			return null;
 		}
 
 		private static bool isFirstTime = true;

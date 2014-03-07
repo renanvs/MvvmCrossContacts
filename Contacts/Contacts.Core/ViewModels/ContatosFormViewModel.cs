@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Android.Graphics;
 using Cirrious.MvvmCross.ViewModels;
 using Contacts.Core.Models;
 using Contacts.Core.Services;
@@ -28,6 +29,15 @@ namespace Contacts.Android.Linked.ViewModels
 		public void AddContato() {
 			var model = new ContactsModel(Name, LastName, Telephone, Mail);
 			_contactsService.AddContact(model);
+		}
+
+		public void PopulateWithId(string objectId)
+		{
+			ContactsModel model = _contactsService.GetContactModelWithId(objectId);
+			Name = model.FirstName;
+			LastName = model.LastName;
+			Telephone = model.Telephone;
+			Mail = model.Mail;
 		}
 	}
 }

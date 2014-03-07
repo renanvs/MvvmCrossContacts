@@ -30,6 +30,11 @@ namespace Contacts.Android.Views
 			base.OnCreate(bundle);
 			SetContentView(Resource.Layout.View_ContactForm);
 
+			var objectId = Intent.GetStringExtra("Model_ID");
+			if (objectId != null) {
+				Model.PopulateWithId(objectId);
+			}
+
 			addUIReferences();
 			addBinds();
 		}

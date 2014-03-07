@@ -55,6 +55,9 @@
     <Reference Include="Cirrious.MvvmCross.Plugins.Json">
       <HintPath>..\binaries\Mvx\Portable\Cirrious.MvvmCross.Plugins.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Messenger">
+      <HintPath>..\binaries\Mvx\Portable\Cirrious.MvvmCross.Plugins.Messenger.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
     <Reference Include="System" />
@@ -68,6 +71,9 @@
   <ItemGroup>
     <Compile Include="..\Contacts.Core\App.cs">
       <Link>App.cs</Link>
+    </Compile>
+    <Compile Include="..\Contacts.Core\MessengerClass\InputIsNeededMessage.cs">
+      <Link>MessengerClass\InputIsNeededMessage.cs</Link>
     </Compile>
     <Compile Include="..\Contacts.Core\Models\ContactsModel.cs">
       <Link>Models\ContactsModel.cs</Link>
@@ -96,7 +102,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties ProjectLinkerExcludeFilter="\\?desktop(\\.*)?$;\\?silverlight(\\.*)?$;\.desktop;\.silverlight;\.xaml;^service references(\\.*)?$;\.clientconfig;^web references(\\.*)?$" ProjectLinkReference="444c2059-b3b3-4574-81c1-fa9c8d732d47" />
+      <UserProperties ProjectLinkReference="444c2059-b3b3-4574-81c1-fa9c8d732d47" ProjectLinkerExcludeFilter="\\?desktop(\\.*)?$;\\?silverlight(\\.*)?$;\.desktop;\.silverlight;\.xaml;^service references(\\.*)?$;\.clientconfig;^web references(\\.*)?$" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

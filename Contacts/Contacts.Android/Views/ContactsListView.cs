@@ -1,10 +1,16 @@
+using System;
 using Android.App;
+using Android.Content;
 using Android.OS;
 using Android.Widget;
+using Cirrious.CrossCore;
 using Cirrious.MvvmCross.Binding.Droid.Views;
 using Cirrious.MvvmCross.Droid.Views;
+using Cirrious.MvvmCross.Plugins.Messenger;
+using Contacts.Core.MessengerClass;
 using Contacts.Core.Models;
 using Contacts.Core.ViewModels;
+using Java.IO;
 
 namespace Contacts.Android.Views
 {
@@ -17,7 +23,17 @@ namespace Contacts.Android.Views
 
 			SetContentView(Resource.Layout.View_ListContacts);
 
+			var messeger = Mvx.Resolve<IMvxMessenger>();
+ 			var _token = messeger.SubscribeOnMainThread<InputIsNeededMessage>(receiveMessageHandler);
+
 			AddButtonsEvent();
+		}
+
+		private void receiveMessageHandler(InputIsNeededMessage message)
+		{
+			var model = (ContactsModel) message.Sender;
+			GoToFormActivityWithModel(model);
+			
 		}
 
 		/// <summary>
@@ -41,6 +57,13 @@ namespace Contacts.Android.Views
 		private void GoToFormActivity()
 		{
 			StartActivity(typeof(ContatosFormView));
+		}
+
+		private void GoToFormActivityWithModel(ContactsModel modelC)
+		{
+			var activity = new Intent(this, typeof(ContatosFormView));
+			activity.PutExtra("Model_ID", modelC.IdContact);
+			StartActivity(activity);
 		}
 
 		/// <summary>
