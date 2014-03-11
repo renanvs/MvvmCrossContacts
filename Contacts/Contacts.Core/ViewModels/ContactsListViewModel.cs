@@ -14,10 +14,6 @@ namespace Contacts.Core.ViewModels
 	{
 
 		private readonly IContactsService _contactsService;
-		/// <summary>
-		/// Ao criar o ViewModel (apenas uma vez), é criado alguns contatos de teste e enviado para a lista
-		/// </summary>
-		/// <param name="contactsService"></param>
 		public ContactsListViewModel(IContactsService contactsService)
 		{
 			_contactsService = contactsService;

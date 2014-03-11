@@ -76,6 +76,8 @@ class MonoPackageManager_Resources {
 		"Cirrious.MvvmCross.Plugins.Json.dll",
 		"Cirrious.MvvmCross.Plugins.Messenger.dll",
 		"Contacts.Android.Linked.dll",
+		"SQLite.Net.dll",
+		"SQLite.Net.Platform.XamarinAndroid.dll",
 		"Cirrious.MvvmCross.Localization.dll",
 		"Newtonsoft.Json.dll",
 	};

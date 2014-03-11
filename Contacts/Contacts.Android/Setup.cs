@@ -1,8 +1,11 @@
 using Android.Content;
 using Android.OS;
+using Cirrious.CrossCore;
 using Cirrious.MvvmCross.Droid.Platform;
 using Cirrious.MvvmCross.ViewModels;
 using Contacts.Core;
+using Contacts.Core.IO;
+using SqlSample.Droid.IO;
 
 namespace Contacts.Android
 {
@@ -25,5 +28,10 @@ namespace Contacts.Android
 			return new MvxJsonNavigationSerializer();
 		}
 
+		protected override void InitializeLastChance()
+		{
+			base.InitializeLastChance();
+			Mvx.RegisterType(typeof(IDeviceFileSystem), typeof(DroidDeviceFileSystem));
+		}
 	}
 }

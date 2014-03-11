@@ -62,7 +62,7 @@ namespace Contacts.Android.Views
 		private void GoToFormActivityWithModel(ContactsModel modelC)
 		{
 			var activity = new Intent(this, typeof(ContatosFormView));
-			activity.PutExtra("Model_ID", modelC.IdContact);
+			activity.PutExtra("Model_ID", modelC.IdContact.ToString());
 			StartActivity(activity);
 		}
 
@@ -85,7 +85,11 @@ namespace Contacts.Android.Views
 			var newFakeName = fakeName + auxNum.ToString();
 			var newFakeLastName = fakeLastName + auxNum.ToString();
 			auxNum++;
-			var newModel = new ContactsModel(newFakeName, newFakeLastName, "5555 - 1111", "email@email.com.br");
+			var newModel = new ContactsModel();
+			newModel.FirstName = newFakeName;
+			newModel.LastName = newFakeLastName;
+			newModel.Telephone = "5566 - 6666";
+			newModel.Mail = "fakeMail@fame.com";
 			Model.AddContato(newModel);
 			MvxListView listView = FindViewById<MvxListView>(Resource.Id.idListView);
 			listView.InvalidateViews();

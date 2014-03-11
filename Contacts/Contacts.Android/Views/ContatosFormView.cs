@@ -25,12 +25,12 @@ namespace Contacts.Android.Views
 		private EditText lastNameEditText;
 		private EditText telephoneEditText;
 		private EditText mailEditText;
-		
+		private string objectId;
 		protected override void OnCreate(Bundle bundle) {
 			base.OnCreate(bundle);
 			SetContentView(Resource.Layout.View_ContactForm);
 
-			var objectId = Intent.GetStringExtra("Model_ID");
+			objectId = Intent.GetStringExtra("Model_ID");
 			if (objectId != null) {
 				Model.PopulateWithId(objectId);
 			}
@@ -42,6 +42,14 @@ namespace Contacts.Android.Views
 		private void addUIReferences()
 		{
 			addContactButton = FindViewById<Button>(Resource.Id.idButtonAddContact);
+
+			if (objectId == null) {
+				addContactButton.Text = "Adicionar";
+			}
+			else {
+				addContactButton.Text = "Atualizar";
+			}
+
 			cancelButton = FindViewById<Button>(Resource.Id.idButtonCancel);
 			addContactButton.Click += (o, e) => { addContact(); };
 			cancelButton.Click += (o, e) => { goToContactList(); };
@@ -70,7 +78,12 @@ namespace Contacts.Android.Views
 		private void addContact()
 		{
 			Toast.MakeText(this, "add contact clicked", ToastLength.Short).Show();
-			Model.AddContato();
+			if (objectId == null) {
+				Model.AddContato();
+			}
+			else {
+				Model.UpdateContato(objectId);
+			}
 			goToContactList();
 		}
 

@@ -11,6 +11,8 @@ C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Androi
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Cirrious.MvvmCross.Droid.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Cirrious.MvvmCross.Plugins.Json.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Cirrious.MvvmCross.Plugins.Messenger.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\SQLite.Net.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\SQLite.Net.Platform.XamarinAndroid.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\System.Windows.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Cirrious.MvvmCross.Localization.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Android.Linked\bin\Debug\Newtonsoft.Json.dll

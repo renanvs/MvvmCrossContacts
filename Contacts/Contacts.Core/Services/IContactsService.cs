@@ -8,5 +8,6 @@ namespace Contacts.Core.Services
 		void AddContact(ContactsModel ContactModel);
 		List<ContactsModel> GetAllContacts();
 		ContactsModel GetContactModelWithId(string objectId);
+		void UpdateContact(ContactsModel model);
 	}
 }

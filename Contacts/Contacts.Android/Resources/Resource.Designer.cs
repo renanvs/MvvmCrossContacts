@@ -26,6 +26,8 @@ namespace Contacts.Android
 		
 		public static void UpdateIdValues()
 		{
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::Contacts.Android.Resource.String.ApplicationName;
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::Contacts.Android.Resource.String.Hello;
 			global::Contacts.Android.Linked.Resource.String.ApplicationName = global::Contacts.Android.Resource.String.ApplicationName;
 			global::Contacts.Android.Linked.Resource.String.Hello = global::Contacts.Android.Resource.String.Hello;
 		}

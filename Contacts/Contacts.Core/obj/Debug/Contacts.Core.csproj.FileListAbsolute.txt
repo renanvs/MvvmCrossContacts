@@ -8,6 +8,8 @@ C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Core\b
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Core\bin\Debug\Cirrious.CrossCore.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Core\bin\Debug\Cirrious.MvvmCross.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Core\bin\Debug\Cirrious.MvvmCross.Plugins.Messenger.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Core\bin\Debug\SQLite.Net.dll
+C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Core\bin\Debug\SQLite.Net.Platform.XamarinAndroid.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Core\bin\Debug\System.Windows.dll
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Core\bin\Debug\Cirrious.CrossCore.pdb
 C:\Users\renan.silva\Documents\GitHub\MvvmCrossContacts\Contacts\Contacts.Core\bin\Debug\Cirrious.MvvmCross.pdb
