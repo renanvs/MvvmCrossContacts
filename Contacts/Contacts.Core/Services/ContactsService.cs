@@ -42,6 +42,11 @@ namespace Contacts.Core.Services
 			_dataService.updateContentInDb(model);
 		}
 
+		public void DeleteContact(ContactsModel model)
+		{
+			_dataService.deleteContentInDb(model);
+		}
+
 		/// <summary>
 		/// Retorna a lista de todos os contatos existentes no List
 		/// </summary>

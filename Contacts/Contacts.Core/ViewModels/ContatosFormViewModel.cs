@@ -52,5 +52,16 @@ namespace Contacts.Android.Linked.ViewModels
 			Telephone = model.Telephone;
 			Mail = model.Mail;
 		}
+
+		public void DeleteContact(string objectId)
+		{
+			if (objectId == null) {
+				return;
+			}
+
+			var model = _contactsService.GetContactModelWithId(objectId);
+
+			_contactsService.DeleteContact(model);
+		}
 	}
 }

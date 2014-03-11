@@ -21,6 +21,7 @@ namespace Contacts.Android.Views
 
 		private Button addContactButton;
 		private Button cancelButton;
+		private Button deleteButton;
 		private EditText nameEditText;
 		private EditText lastNameEditText;
 		private EditText telephoneEditText;
@@ -51,14 +52,26 @@ namespace Contacts.Android.Views
 			}
 
 			cancelButton = FindViewById<Button>(Resource.Id.idButtonCancel);
+			deleteButton = FindViewById<Button>(Resource.Id.idButtonDeleteContact);
 			addContactButton.Click += (o, e) => { addContact(); };
 			cancelButton.Click += (o, e) => { goToContactList(); };
+			deleteButton.Click += (o, e) => { DeleteContact(); };
 
 			nameEditText = FindViewById<EditText>(Resource.Id.editTextName);
 			lastNameEditText = FindViewById<EditText>(Resource.Id.editTextLastName);
 			telephoneEditText= FindViewById<EditText>(Resource.Id.editTextTelephone);
 			mailEditText= FindViewById<EditText>(Resource.Id.editTextMail);
-			
+
+			if (objectId == null) {
+				//todo:deveria remover o botao de remover se foss novo contato
+			}
+
+		}
+
+		private void DeleteContact()
+		{
+			Model.DeleteContact(objectId);
+			goToContactList();
 		}
 
 		private void addBinds()

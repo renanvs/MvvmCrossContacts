@@ -65,5 +65,10 @@ namespace SqlSample.Core.Services
 
 			return true;
 		}
+
+		public void deleteContentInDb(ContactsModel model)
+		{
+			_sqliteConnection.Delete(model);
+		}
 	}
 }

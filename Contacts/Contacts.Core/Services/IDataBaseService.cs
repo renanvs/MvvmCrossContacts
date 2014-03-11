@@ -13,5 +13,6 @@ namespace SqlSample.Core.Services
 		List<ContactsModel> getAllContacts();
 		ContactsModel getModelWithId(string id);
 		bool hasSample();
+		void deleteContentInDb(ContactsModel model);
 	}
 }

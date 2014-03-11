@@ -9,5 +9,6 @@ namespace Contacts.Core.Services
 		List<ContactsModel> GetAllContacts();
 		ContactsModel GetContactModelWithId(string objectId);
 		void UpdateContact(ContactsModel model);
+		void DeleteContact(ContactsModel model);
 	}
 }
